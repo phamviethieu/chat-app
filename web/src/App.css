@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background: linear-gradient(gray, black);
+
+}
+
+
+/* body {
+  background: linear-gradient(gray, black);
+} */
+.chat-item {
+  width: 50%;
+}
+.your-message {
+  background: #009bff;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  color: white;
+  float: right;
+}
+
+.other-people {
+  background: #868686;
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  color: white;
+  text-align: left;
+  float: left;
+}
+
+.box-chat_message {
+  min-height: 60vh;  
+  max-height: 60vh;  
+  overflow-y: auto;
+  
+}
+.box-chat {
+  width:70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 0 0 10px 0 black;
+  border-radius: 1em;
+}
+
+.send-box {
+  width: 100%;
+  padding: 1em;
+}
+
+textarea {
+  width: 80%;
+  margin: 0;
+  padding: 0.5em;
+  background: #ebf5ff;
+  border-radius: 2em; 
+  display: flex;
+  float: left;
+}
+
+button {
+  width: 10%;
+  background: #6650ff;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  padding: 1em;
+  text-align: center;
+
+}
+button:hover {
+  background: black;
+}
+textarea:focus {outline:0;}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dadada;
+  border-radius: 1em;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
